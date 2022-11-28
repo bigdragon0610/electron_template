@@ -1,0 +1,22 @@
+{
+  "name": "electron_template",
+  "version": "1.0.0",
+  "description": "template to start electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigdragon0610/electron_template.git"
+  },
+  "author": "bigdragon0610",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigdragon0610/electron_template/issues"
+  },
+  "homepage": "https://github.com/bigdragon0610/electron_template#readme",
+  "devDependencies": {
+    "electron": "^21.3.1"
+  }
+}
