@@ -2,10 +2,12 @@ const { app, BrowserWindow } = require("electron");
 
 const createWindow = () => {
   const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    titleBarStyle: "hidden",
+    alwaysOnTop: true,
+    width: 300,
+    height: 300,
   });
-  mainWindow.openDevTools();
+  // mainWindow.openDevTools();
 
   mainWindow.loadFile("index.html");
 };
