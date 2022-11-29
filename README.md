@@ -36,3 +36,9 @@
   });
   ```
 6. `npm start`とうつと、index.htmlの内容が反映された画面が出てくることを確認
+
+# デベロッパーツール設置方法
+- `main.js`の`createWindow`関数内で以下のように記述
+  ```js
+  mainWindow.openDevTools();
+  ```

@@ -5,6 +5,7 @@ const createWindow = () => {
     width: 800,
     height: 600,
   });
+  mainWindow.openDevTools();
 
   mainWindow.loadFile("index.html");
 };
